@@ -1,0 +1,17 @@
+
+.optionsList label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.optionsList select {
+    width: 100%;
+    padding: 24px;
+    background-color: #ffffff;
+    border: none;
+    outline-color: #6278F7;
+    box-shadow: 10px 10px 30px #00000025;
+}

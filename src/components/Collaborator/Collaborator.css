@@ -1,0 +1,71 @@
+.collaborator {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 262px;
+    height: 272px;
+    margin: 10px;
+    background-color: green;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+}
+.closeButton {
+    position: relative;
+    top: -21%;
+    right: -90%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    color: #ffffff;
+}
+.closeButton:hover {
+    transform: scale(1.1);
+}
+.closeButton:active {
+    transform: scale(0.95);
+}
+.collaboratorHeader {
+    margin: 0;
+    padding: 0 0 30px;
+    background-color: #ffffff;
+}
+.collaboratorHeader img {
+    width: 120px;
+    height: 120px;
+    margin: -60px 0 20px 0;
+    border-radius: 230px;
+}
+.collaboratorHeader h3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #6278F7;
+    border-bottom: none;
+}
+.collaboratorHeader p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fullHeart, .emptyHeart {
+    color: #ff5580;
+    margin: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.fullHeart:hover, .emptyHeart:hover {
+    transform: scale(1.5);
+}
+
+.fullHeart:active, .emptyHeart:active {
+    transform: scale(1.1);
+}
